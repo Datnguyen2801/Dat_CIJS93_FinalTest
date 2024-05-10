@@ -103,7 +103,7 @@ const Weather = () => {
               <img src={photo2} alt="" />
               <div className="humidity">
                 <p>{Math.round(data.humidity)}%</p>
-                <p>Humidity</p>
+                <span>Humidity</span>
               </div>
             </div>
 
@@ -111,7 +111,7 @@ const Weather = () => {
               <img src={photo3} alt="" />
               <div className="wind">
                 <p>{data.speed} km/h</p>
-                <p>Wind</p>
+                <span>Wind</span>
               </div>
             </div>
           </div>
